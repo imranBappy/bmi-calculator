@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/input_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter you height (Feet)"
+        android:backgroundTint="#000"
+        android:textCursorDrawable="@color/black"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/input_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter you weight (KG)"
+        android:backgroundTint="#000"
+        android:textCursorDrawable="@color/black"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/calculate_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        />
+
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="Reset"
+        android:backgroundTint="#BF0303"
+        />
+    <TextView
+        android:id="@+id/show_bmi"
+        android:textIsSelectable="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/show_mes"
+        android:textIsSelectable="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        />
+
+
+</LinearLayout>
